@@ -7,28 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Admin | Profile</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../font-awesome/css/font-awesome.css" rel="stylesheet">
 
-    <link href="../css/plugins/summernote/summernote.css" rel="stylesheet">
-    <link href="../css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
+    <link href="../../css/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="../../css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
 
-    <link href="../css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+    <link href="../../css/plugins/datapicker/datepicker3.css" rel="stylesheet">
 
-    <link href="../css/animate.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="../../css/animate.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
 </head>
 
 <body>
 <div id="wrapper">
 
     <!-- Sidebar menu -->
-    <?php include 'components/sidebar.php'; ?>
+    <?php include '../../includes/admin-sidebar.php'; ?>
 
     <div id="page-wrapper" class="gray-bg">
 
         <!-- Top bar -->
-        <?php include 'components/topBar.php'; ?>
+        <?php include '../../includes/admin-topbar.php'; ?>
 
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-10">
@@ -405,7 +405,7 @@
                                             <tbody>
                                             <tr>
                                                 <td>
-                                                    <img src="../img/gallery/2s.jpg">
+                                                    <img src="../../img/gallery/2s.jpg">
                                                 </td>
                                                 <td>
                                                     <input type="text" class="form-control" disabled value="http://mydomain.com/images/image1.png">
@@ -419,7 +419,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <img src="../img/gallery/1s.jpg">
+                                                    <img src="../../img/gallery/1s.jpg">
                                                 </td>
                                                 <td>
                                                     <input type="text" class="form-control" disabled value="http://mydomain.com/images/image2.png">
@@ -433,7 +433,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <img src="../img/gallery/3s.jpg">
+                                                    <img src="../../img/gallery/3s.jpg">
                                                 </td>
                                                 <td>
                                                     <input type="text" class="form-control" disabled value="http://mydomain.com/images/image3.png">
@@ -447,7 +447,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <img src="../img/gallery/4s.jpg">
+                                                    <img src="../../img/gallery/4s.jpg">
                                                 </td>
                                                 <td>
                                                     <input type="text" class="form-control" disabled value="http://mydomain.com/images/image4.png">
@@ -461,7 +461,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <img src="../img/gallery/5s.jpg">
+                                                    <img src="../../img/gallery/5s.jpg">
                                                 </td>
                                                 <td>
                                                     <input type="text" class="form-control" disabled value="http://mydomain.com/images/image5.png">
@@ -475,7 +475,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <img src="../img/gallery/6s.jpg">
+                                                    <img src="../../img/gallery/6s.jpg">
                                                 </td>
                                                 <td>
                                                     <input type="text" class="form-control" disabled value="http://mydomain.com/images/image6.png">
@@ -489,7 +489,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <img src="../img/gallery/7s.jpg">
+                                                    <img src="../../img/gallery/7s.jpg">
                                                 </td>
                                                 <td>
                                                     <input type="text" class="form-control" disabled value="http://mydomain.com/images/image7.png">
@@ -529,20 +529,20 @@
 
 
 <!-- Mainly scripts -->
-<script src="../js/jquery-3.1.1.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
-<script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../../js/jquery-3.1.1.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="../../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
 <!-- Custom and plugin javascript -->
-<script src="../js/inspinia.js"></script>
-<script src="../js/plugins/pace/pace.min.js"></script>
+<script src="../../js/inspinia.js"></script>
+<script src="../../js/plugins/pace/pace.min.js"></script>
 
 <!-- SUMMERNOTE -->
-<script src="../js/plugins/summernote/summernote.min.js"></script>
+<script src="../../js/plugins/summernote/summernote.min.js"></script>
 
 <!-- Data picker -->
-<script src="../js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<script src="../../js/plugins/datapicker/bootstrap-datepicker.js"></script>
 
 <script>
     $(document).ready(function(){

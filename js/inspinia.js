@@ -69,12 +69,11 @@ $(document).ready(function () {
 
     // Add class active to current link
     $('#side-menu a').each(function () {
-        let href = '/ecommerce/admin/' + $(this).attr('href');
+        let href = '/ecommerce/views/admin/' + $(this).attr('href');
         if (href === window.location.pathname) {
             $(this).closest('li').addClass('active');
         }
     });
-
 
     // Initialize slimscroll for right sidebar
     $('.sidebar-container').slimScroll({
