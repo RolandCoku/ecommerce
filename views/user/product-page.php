@@ -1,3 +1,14 @@
+<?php
+
+global $products;
+
+echo "<pre>";
+foreach ($products as $product) {
+    print_r($product);
+}
+echo "</pre>";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
