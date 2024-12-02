@@ -8,10 +8,11 @@
 
     <title>Admin | Profile</title>
 
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="../../css/animate.css" rel="stylesheet">
-    <link href="../../css/style.css" rel="stylesheet">
+    <link href="<?= base_url('css/bootstrap.min.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('font-awesome/css/font-awesome.css') ?>" rel="stylesheet">
+
+    <link href="<?= base_url('css/animate.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('css/style.css') ?>" rel="stylesheet">
 
 </head>
 
@@ -19,12 +20,12 @@
 <div id="wrapper">
 
     <!-- Sidebar menu -->
-    <?php include '../../includes/admin-sidebar.php'; ?>
+    <?php include app_path('includes/admin-sidebar.php'); ?>
 
     <div id="page-wrapper" class="gray-bg">
 
         <!-- Top bar -->
-        <?php include '../../includes/admin-topbar.php'; ?>
+        <?php include app_path('includes/admin-topbar.php'); ?>
 
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-10">
